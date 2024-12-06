@@ -4,8 +4,8 @@ public class Node
 {
     public Node random;
     public Node child;
-    int data;
-    Node next;
+    public int data;
+    public Node next;
     public Node(int data)
     {
         this.data=data;
